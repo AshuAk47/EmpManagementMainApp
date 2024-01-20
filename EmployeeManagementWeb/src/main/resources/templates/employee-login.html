@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Login</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Login</h1>
+
+    <!-- Add employee login form -->
+
+    <!-- Add a styled button to redirect to the Spring Boot service -->
+    <button onclick="redirectToLoginService()"> Employee</button>
+
+    <script>
+        // JavaScript function to redirect to the Spring Boot service
+        function redirectToLoginService() {
+            // Change the window.location.href to the URL of your Spring Boot service
+            window.location.href = 'http://localhost:7001/login';
+        }
+    </script>
+</body>
+</html>

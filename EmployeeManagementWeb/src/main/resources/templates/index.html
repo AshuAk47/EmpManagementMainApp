@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management </title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            padding: 14px 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a i {
+            margin-right: 8px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #555;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #777;
+        }
+    </style>
+    
+    
+    <html lang="en">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title of website -->
+    <title>website</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/sunny-outline.svg" type="image/x-icon">
+
+    <!-- linking css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+
+
+    
+    
+    
+    
+</head>
+
+
+<body>
+
+    <header>
+       
+        <h1>Employee Management</h1>
+    </header>
+
+   
+
+    <!-- Your content sections go here -->
+    
+    <!-- header section start here -->
+    <nav id="navbar">
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <a class="logo" href="./index.html">
+            <div class="logo">
+               Home
+            </div>
+        </a>
+        <div class="nav-items">
+             
+        <a href="about"><i class="fas fa-info-circle"></i> About Us</a>
+        <a href="contact"><i class="fas fa-envelope"></i> Contact Us</a>
+        <a href="employee-login"><i class="fas fa-user"></i> Employee Login</a>
+        <a href="admin-login"><i class="fas fa-user-cog"></i> Admin Login</a>
+    
+        </div>
+    </nav>
+
+    <!-- welcome section start here -->
+    <div class="intro-section">
+        <div class="intro-wrapper">
+            <div class="content-wrapper">
+                <h4>Happy New Year 2024</h4>
+                <h3> Code, enjoy</span> and live a Developer life</h3>
+                <p>Java developers don't need magic wands; they create magic with every line of code they write</p>
+                <div class="nav-btn">
+                    <div class="travel-now">
+                        Code With Us
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img src="image/front.jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- category section start here  -->
+    <div class="center-container">
+        <div class="content-header">
+            
+            <h3>We offer best service</h3>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="circle">
+                    <ion-icon name="globe-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Java Core</h2>
+                    <p>Application Development: Utilize Java's robust features for building scalable and high-performance applications..</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="circle">
+                    <ion-icon name="airplane-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>MicroServices </h2>
+                    <p>Service Decomposition: Break down applications into smaller, independent services for improved scalability and maintainability.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="circle">
+                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Data Science</h2>
+                    <p>Predictive Analytics
+Data Exploration and Visualization
+Machine Learning Solutions
+Big Data Solutions
+AI Integration
+Data Security and Compliance.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- space -->
+    <div class="space"></div>
+
+    <!-- top destination section start here  -->
+    <div class="center-container">
+        <div class="content-header">
+            <p> Our Headquarters</p>
+            <h3> destination</h3>
+        </div>
+        <div class="container destination">
+            <a href="#">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="/image/destination-img01.jpg" alt="destination-img01">
+                    </div>
+                    <div class="content">
+                        <div class="destination">
+                            <h3>Noida </h3>
+                            <div class="price">$40</div>
+                        </div>
+                        <div class="destination-date">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            1 ,Jan,2024
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="/image/destination-img02.jpg" alt="destination-img01">
+                    </div>
+                    <div class="content">
+                        <div class="destination">
+                            <h3>Delhi</h3>
+                            <div class="price">$80</div>
+                        </div>
+                        <div class="destination-date">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            1,Jan,2024
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="/image/destination-img03.jpg" alt="destination-img01">
+                    </div>
+                    <div class="content">
+                        <div class="destination">
+                            <h3>Pune</h3>
+                            <div class="price">$40</div>
+                        </div>
+                        <div class="destination-date">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            1,jan,2024
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- requirement section start here -->
+    <div class="requirement-section">
+        <div class="requirement-wrapper">
+            <div class="flex1-req">
+                <p>requirement</p>
+                <h2>
+                    Book your best  Services here
+                    <span>
+                        <!-- highlight word phrase -->
+                    </span>
+                </h2>
+                <ul>
+                    <li>
+                        <div class="icon-box">
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="content-box">
+                            <h3>Look for Booking  in advance</h3>
+                            <p>We have affordable rates for our booking ..</p>
+                            There is NEW YEAR OFFER .
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box">
+                            <ion-icon name="globe-outline"></ion-icon>
+                        </div>
+                        <div class="content-box">
+                            <h3>Look for Microservices </h3>
+                            <p>We will develop your Services with SPring  BOOT .</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box">
+                            <ion-icon name="airplane-outline"></ion-icon>
+                        </div>
+                        <div class="content-box">
+                            <h3>Look for java</h3>
+                            <p>Enhance your Services Security with us ..</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex1-req">
+                <div class="req-card">
+                    
+                    <div class="boxing">
+                            
+                    </div>
+
+                    <div class="imgbox">
+                        <img src="./image/requirement-img01.jpg" alt="">
+                    </div>
+                    <div class="content-box">
+                        <h3>@Ashutosh</h3>
+                        <p>Developer</p>
+                        <div class="social-media-icon">
+                            <a href="#">
+                                <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter">
+                                </ion-icon>
+                            </a>
+    
+                            <a href="#">
+                                <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin">
+                                </ion-icon>
+                            </a>
+                            
+                            <a href="#">
+                                <ion-icon name="logo-google" role="img" class="md hydrated" aria-label="logo google"></ion-icon>
+                            </a>
+    
+                            <a href="#">
+                                <ion-icon name="logo-github" role="img" class="md hydrated" aria-label="logo github"></ion-icon>
+                            </a>
+                            
+                        </div>
+
+                        <div class="view-box">
+                            <ion-icon name="bar-chart-outline"></ion-icon>
+                            121,12,000
+                        </div>
+
+
+                        <div class="small-card">
+                            <div class="grid1">
+                                <img src="./image/c-1.jpg" alt="">
+                            </div>
+                            <div class="grid2">
+                                <h2>Heading</h2>
+                                <span>5460.4563</span>
+                                <span>progress</span>
+                                <div class="progress">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- comment section start here -->
+    <section id="box">
+        <div class="heading">
+            <span>Comments</span>
+            <h1>clients says</h1>
+        </div>
+
+        <div class="container">
+
+            <!-- box -->
+            <div class="box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="image/c-1.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Touseeq Ijaz</strong>
+                            <span>@subscribeToSasteCoder</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>"Exceptional service! Our project was handled with utmost professionalism, delivering results beyond our expectations."</p>
+                </div>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/c-2.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Anshika</strong>
+                            <span>@subscribeToSasteCoder</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>Responsive and customer-focused. This software company goes the extra mile to ensure client satisfaction. Impressive work!"</p>
+                </div>
+            </div>
+
+            <!-- box -->
+            <div class="box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/c-3.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Aman</strong>
+                            <span>@subscribeToSasteCoder</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>Expertise meets excellence. The software solutions provided exceeded our expectations. Great team, great results!"</p>
+                </div>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/c-4.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Ayushi</strong>
+                            <span>@subscribeToSasteCoder</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-solid.svg" alt="">
+                        <img src="image/star-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>Working With you is really nice experience for my company  .You provide best web security with efficiet Communication b/w microservices.  </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- space -->
+    <!-- <div class="space"></div> -->
+
+
+    <!-- Banner section start here -->
+    <div class="banner-section">
+        <div class="banner-wrapper">
+            <div class="banner-grid1">
+                <ion-icon name="logo-microsoft"></ion-icon>
+                MICROSOFT
+            </div>
+            <div class="banner-grid1">
+                <ion-icon name="logo-amazon"></ion-icon>
+                AMAZON
+            </div>
+            <div class="banner-grid1">
+                <ion-icon name="logo-google"></ion-icon>
+                GOOGLE
+            </div>
+            <div class="banner-grid1">
+                <ion-icon name="logo-facebook"></ion-icon>
+                facebook
+            </div>
+            <div class="banner-grid1">
+                <ion-icon name="logo-github"></ion-icon>
+                github
+            </div>
+        </div>
+    </div>
+
+
+    <!-- newsletter section start here -->
+    <div class="newsletter-section">
+        <div class="newsletter-wrapper">
+
+            <div class="fly-plane">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+            </div>
+
+            <div class="content1-news">
+                <h2>
+                    Subscribe to get information, latest news and other Interesting offer about
+                    <span>Travel</span>
+                </h2>
+            </div>
+
+            <div class="content2-news">
+                <form action="#">
+                    <input type="text" name="" id="" placeholder="Enter your email">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section start here -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer1">
+                <div class="wide-box">
+
+                    <div class="logo">
+                        <a href="#">
+                            Java Developer<span style="color: #ff3d00;">.</span>
+                        </a>
+                    </div>
+
+                    <a href="#">
+                        <p>© 2024 Care.</p>
+                        <p>All Rights Reserved</p>
+                    </a>
+
+                </div>
+                <div class="equal-box">
+                    <h2>Company</h2>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">help</a>
+                </div>
+                <div class="equal-box">
+                    <h2>Contact</h2>
+                    <a href="#">4967 Sardis Sta,</a>
+                    <a href="#">Victoria 8007, Montreal.</a>
+                    <a href="#">support@artstudio.com</a>
+                </div>
+                <div class="equal-box">
+
+                    <h2>More</h2>
+                    <a href="#">destination</a>
+                    <a href="#">venue</a>
+                    <a href="#">trip</a>
+
+                </div>
+                <div class="wide-box">
+
+                    <div class="social-media-icon">
+                        <a href="#">
+                            <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter">
+                            </ion-icon>
+                        </a>
+
+                        <a href="#">
+                            <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin">
+                            </ion-icon>
+                        </a>
+                        
+                        <a href="#">
+                            <ion-icon name="logo-google" role="img" class="md hydrated" aria-label="logo google"></ion-icon>
+                        </a>
+
+                        <a href="#">
+                            <ion-icon name="logo-github" role="img" class="md hydrated" aria-label="logo github"></ion-icon>
+                        </a>
+                        
+                    </div>
+
+                    <p>we are present in </p>
+
+                    <div class="play-store">
+                        <a href="#">
+                            <img src="image/footer-img01.jpg" alt="footer-img01">
+                        </a>
+                        <a href="#">
+                            <img src="image/footer-img02.jpg" alt="footer-img02">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer2">
+                Copyright © 2024 Ashutosh . All Right Reserved .
+            </div>
+        </div>
+    </footer>
+
+    <!-- linking js file -->
+    <script src="./js/main.js"></script>
+
+    <!-- ionic.io icon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- manual js start here -->
+    <script>
+        const menuBtn = document.querySelector(".menu-icon span");
+        const hanburger = document.querySelectorAll('.menu-icon')[0];
+        const items = document.querySelector(".nav-items");
+        const form = document.querySelector("form");
+        console.log(hanburger);
+        menuBtn.onclick = () => {
+            items.classList.toggle("active");
+            hanburger.classList.toggle("close")
+        }
+
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+   
+</body>
+</html>

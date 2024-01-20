@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - XYZ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap">
+    <style>
+        * {
+            font-family: Nunito, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .text-blk {
+            line-height: 25px;
+        }
+
+        .responsive-container-block {
+            min-height: 75px;
+            height: fit-content;
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            justify-content: flex-start;
+        }
+
+        .responsive-container-block.bigContainer {
+            padding: 10px 30px;
+            background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .responsive-container-block.Container {
+            max-width: 800px;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 150px auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .text-blk.heading {
+            font-size: 36px;
+            line-height: 45px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        .text-blk.subHeading {
+            text-align: center;
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 60px;
+        }
+
+        .socialIcon {
+            width: 33px;
+            height: 33px;
+        }
+
+        .social-icons-container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .social-icon {
+            margin: 0 50px 0 50px;
+        }
+
+        .social-icon:hover {
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .text-blk.heading {
+                font-size: 55px;
+                line-height: 65px;
+            }
+
+            .text-blk.subHeading {
+                font-size: 18px;
+                line-height: 24px;
+            }
+
+            .socialIcon {
+                width: 20px;
+                height: 20px;
+            }
+
+            .text-blk.subHeading {
+                line-height: 27px;
+            }
+
+            .text-blk.heading {
+                font-size: 32px;
+                line-height: 40px;
+                margin-bottom: 20px;
+            }
+
+            .social-icon {
+                margin: 0 25px 0 25px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .responsive-container-block.bigContainer {
+                padding: 10px 20px;
+            }
+
+            .text-blk.heading {
+                font-size: 45px;
+                line-height: 55px;
+                margin-bottom: 20px;
+            }
+
+            .text-blk.subHeading {
+                font-size: 14px;
+                line-height: 22px;
+                margin-bottom: 30px;
+            }
+
+            .social-icons-container {
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .text-blk.subHeading {
+                font-size: 16px;
+                line-height: 23px;
+            }
+
+            .text-blk.heading {
+                font-size: 26px;
+                line-height: 30px;
+            }
+
+            .social-icon {
+                margin: 0 20px 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="responsive-container-block bigContainer">
+    <div class="responsive-container-block Container">
+        <p class="text-blk heading">
+            About Us
+        </p>
+        <p class="text-blk subHeading">
+            Welcome Here ! We are a passionate team of software developers with a strong foundation in computer science. As graduates in the field, we bring a wealth of knowledge and expertise to every project we undertake.
+        </p>
+        <div class="social-icons-container">
+            <a class="social-icon">
+                <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png" alt="Icon 1">
+            </a>
+            <a class="social-icon">
+                <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png" alt="Icon 2">
+            </a>
+            <a class="social-icon">
+                <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png" alt="Icon 3">
+            </a>
+            <a class="social-icon">
+                <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png" alt="Icon 4">
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
